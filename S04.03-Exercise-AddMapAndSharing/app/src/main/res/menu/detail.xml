@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
+        // DONE (3) Create a menu with an item with id of action_share
+    -->
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/abc_ic_menu_share_mtrl_alpha"
+        android:orderInCategory="1"
+        android:title="@string/action_share"
+        app:showAsAction="always"
+        />
+</menu>
